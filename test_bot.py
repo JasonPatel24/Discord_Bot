@@ -27,4 +27,4 @@ async def on_message(message):
             # Roll a die
             await message.channel.send("You rolled a " + str(random.choice(range(1,7))) + "!")
 
-client.run('NjE4NjI1OTk4NzI4MDY5MTMw.XW8aew.0H8Z5YmWrfrZ_qThQ7w0ZbiQf2I')
+client.run('<YOUR_TOKEN_HERE>')
