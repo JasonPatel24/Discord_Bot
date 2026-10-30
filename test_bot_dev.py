@@ -546,7 +546,3 @@ async def leave(ctx):
     await ctx.message.channel.send("*Ayt ima head out...*")
     voice_client = ctx.voice_client
     await voice.disconnect()
-    
-
-client.run('Njk2MzgxMDQ4NTcyODcwNjU2.Xon55Q.WFNr_nFVATtbi1kiRhhwb3aBYW0') # -- Test Bot
-#client.run('NjE4NjI1OTk4NzI4MDY5MTMw.Xxi3CA.4Iac_Bzzkq8-tLNQj4tAX_qrpm0') # -- Live Bot
